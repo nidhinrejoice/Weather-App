@@ -1,8 +1,6 @@
 package com.nidhin.locationtracker.di
 
-import android.app.Application
 import android.content.Context
-import android.content.SharedPreferences
 import com.nidhin.locationtracker.Constants
 import com.nidhin.locationtracker.api.OpenWeatherApiService
 import com.nidhin.locationtracker.api.WeatherStackApiService
@@ -81,13 +79,13 @@ class AppModule {
     @Provides
     @Named("0PEN_WEATHER_API_APP_ID")
     fun provideOpenWeatherApiAppId(): String {
-        return Constants.openWeatherApiAppId
+        return Constants.OPEN_WEATHER_API_APP_ID
     }
 
     @Provides
     @Named("WEATHER_STACK_API_ACCESS_KEY")
     fun provideWeatherStackAccessKey(): String {
-        return Constants.weatherStackAccessKey
+        return Constants.WEATHER_STACK_ACCESS_KEY
     }
 
 

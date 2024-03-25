@@ -24,3 +24,11 @@ hs_err_pid*
 replay_pid*
 /.idea/
 /.gradle/
+.idea/gradle.xml
+.gradle/8.4/dependencies-accessors/dependencies-accessors.lock
+.gradle/8.4/dependencies-accessors/executionHistory.bin
+.gradle/8.4/fileHashes/fileHashes.lock
+.gradle/buildOutputCleanup/buildOutputCleanup.lock
+.gradle/file-system.probe
+.idea/gradle.xml
+.idea/misc.xml
